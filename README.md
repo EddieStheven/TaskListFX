@@ -18,7 +18,7 @@ Este projeto é uma aplicação de Lista de Tarefas desenvolvida com **JavaFX** 
 - **Scene Builder**: Ferramenta para auxiliar no design das telas.
 
 ### 2. **Backend - API RESTful**
-- **Spring Boot**: Framework para criar a API RESTful que processa as requisições de tarefas.
+- **JPA (Java Persistence API)**: Framework para gerenciar a persistência de dados no banco de dados, substituindo a necessidade de um framework adicional como Spring Boot.
 - **Java**: Linguagem principal para o desenvolvimento da lógica de negócio e API.
 - **Banco de Dados**: Utilização de um banco de dados **MySQL** ou **PostgreSQL** para armazenamento das tarefas.
 
@@ -38,6 +38,6 @@ Para executar a aplicação localmente, você precisará ter os seguintes compon
 - **Java 11+**
 - **Maven** ou **Gradle**
 - **MySQL/PostgreSQL** (ou outro banco de dados relacional)
-- **Scene Builder** (para edição de interfaces FXML, opcional)
+- **Scene Builder** (para edição de interfaces FXML)
 - **Git** (para versionamento)
 - **Docker** (para deploy containerizado)
